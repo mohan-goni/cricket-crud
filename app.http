@@ -6,7 +6,7 @@ Content-Type: application/json
 
 {
     
-  "playerName": "Vishal",
+  "playerName": "Mohan",
   "jerseyNumber": 17,
   "role": "Bowler"
 

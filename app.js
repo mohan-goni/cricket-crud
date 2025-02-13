@@ -71,7 +71,7 @@ app.put("/players/:playerId/", async (request, response) => {
     role=  '${role}'
     where player_id=${playerId};`;
   await db.run(updatePlayerQuery);
-  response.send("Player Details Updated");
+  response.send("Player Details Updated............");
 });
 
 // DELETE player API
@@ -81,6 +81,6 @@ app.delete("/players/:playerId/", async (request, response) => {
     delete from cricket_team 
     where player_id=${playerId};`;
   await db.run(playerQuery);
-  response.send("Player Removed");
+  response.send("Player Removed sucessfully..............");
 });
 module.exports = app;
